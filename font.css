@@ -1,3 +1,5 @@
+/*CUSTOM FONT*/
+/* WEB FONT TAKEN FROM:https://www.1001freefonts.com/new-fonts.php*/
 @font-face{
 font-family: 'Beaconimport';
 src: url('Beacon.eot'); /* IE9 Compat Modes */
@@ -20,7 +22,7 @@ h1{
 	background-color: lightpink;
 }
 
-/* START BOUNCE:   STYLING THE CIRCLE THAT IS BOUNCING */
+/* START BOUNCE:   STYLING THE FONT THAT IS BOUNCING */
 .bounce{
 	color: black;
     font-size: 30px;
@@ -49,7 +51,7 @@ h1{
 }
 /*END BOUNCE*/
 
-/* START SHAKE:  STYLING THE SQUARE THAT IS SHAKING */
+/* START SHAKE:  STYLING THE FONT THAT IS SHAKING */
 .shake{
 	color: black;
 	font-size: 30px;
@@ -77,7 +79,7 @@ h1{
 }
 /*END SHAKE*/
 
-/* START FALL:  STYLING THE TRIANGLE THAT IS FALLING */
+/* START FALL:  STYLING THE FONT THAT IS FALLING */
 .fall{
 	color: black;
 	font-size: 30px;
