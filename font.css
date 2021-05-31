@@ -1,3 +1,14 @@
+@font-face{
+font-family: 'Beaconimport';
+src: url('Beacon.eot'); /* IE9 Compat Modes */
+ src: url('Beacon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('Beacon.woff2') format('woff2'), /* Super Modern Browsers */
+      url('Beacon.woff') format('woff'), /* Pretty Modern Browsers */
+      url('Beacon.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('Beacon.svg#svgFontName') format('svg'); /* Legacy iOS */
+} 
+
+
 br{
 	  display: block;
       content: "";
@@ -71,8 +82,8 @@ h1{
 	color: black;
 	font-size: 30px;
 /*FONT NAME: BEACON */
-   /* font-family: Beaconimport, sans-serif;*/
-   font-family: Arial;
+   font-family: Beaconimport, sans-serif;
+   /*font-family: Arial; */
 
 }
 
