@@ -9,3 +9,29 @@ h1{
 	background-color: lightpink;
 }
 
+.bounce{
+	color: black;
+    font-size: 30px;
+ /* ADOBE FONT : URBANA SEMI BOLD ITALIC */
+    font-family: urbana, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* ANIMATION */
+.bounce:hover {
+	animation: bouncing 1.5s ease-in-out infinite;
+}
+
+@keyframes bouncing {
+	0%,{transform:translateY(0);
+	}
+	25% {transform: translateY(-100px);
+	}
+	50% {transform: translateY(10px);
+	}
+	75% {transform: translateY(-30px);
+	}
+	100% {transform: translateY(0);
+	}
+}
