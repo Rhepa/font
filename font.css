@@ -9,6 +9,7 @@ h1{
 	background-color: lightpink;
 }
 
+/* START BOUNCE:   STYLING THE CIRCLE THAT IS BOUNCING */
 .bounce{
 	color: black;
     font-size: 30px;
@@ -35,3 +36,59 @@ h1{
 	100% {transform: translateY(0);
 	}
 }
+/*END BOUNCE*/
+
+/* START SHAKE:  STYLING THE SQUARE THAT IS SHAKING */
+.shake{
+	color: black;
+	font-size: 30px;
+/* GOOGLE FONT: LIMELIGHT */
+    font-family: 'Limelight', cursive;
+}
+
+/* ANIMATION */
+.shake:hover{
+	animation: shake 0.2s ease infinite;
+}
+
+@keyframes shake{
+
+    0% {transform: translateX(0);
+    }
+	25%{transform: translateX(-2px) rotate(1deg);
+	}
+	50% {transform: translateX(3px);
+	}
+	80% {transform: translateX(2px)rotate(1deg);
+	}
+	100% {transform: translateX(0) rotate(-1deg);
+	}
+}
+/*END SHAKE*/
+
+/* START FALL:  STYLING THE TRIANGLE THAT IS FALLING */
+.fall{
+	color: black;
+	font-size: 30px;
+/*FONT NAME: BEACON */
+   /* font-family: Beaconimport, sans-serif;*/
+   font-family: Arial;
+
+}
+
+/* ANIMATION */
+.fall:hover{
+	animation: falling 1s;
+}
+
+@keyframes falling {
+
+	0% {transform: translateY(0);
+	}
+	50% {transform: translateY(-10px) rotate(2deg);
+	}
+	100% {transform: translateY(200px);
+	}
+}
+
+/*END FALL*/
